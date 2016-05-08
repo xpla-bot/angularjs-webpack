@@ -2,7 +2,13 @@
   "name": "angularjs-webpack",
   "version": "1.0.0",
   "description": "AngularJS Webpack",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack-dev-server --content-base ./src --progress --history-api-fallback --open"
+  },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.7",
+    "webpack-dev-server": "^2.0.0-beta"
+  }
 }

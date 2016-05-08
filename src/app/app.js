@@ -1,2 +1,2 @@
-/// Exporty możemy robić w stylue NodeJS/CommonJS
-module.exports = 'Hello from the module!'
+/// Preferowane są jednak eksporty ES2015
+export const hello = 'Hello from the module!'

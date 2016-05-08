@@ -1,2 +1,3 @@
-/// Importowanie jak w NodeJS/CommonJS
-console.log(require('./app/app'))
+/// Webpack 2 rozumie też importy ES2015
+import { hello } from './app/app'
+console.log(hello)

@@ -1,0 +1,21 @@
+{
+  "name": "angularjs-webpack",
+  "version": "1.0.0",
+  "description": "AngularJS Webpack",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base ./src --progress --history-api-fallback --open"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.0.0",
+    "webpack": "^2.1.0-beta.7",
+    "webpack-dev-server": "^2.0.0-beta"
+  },
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}

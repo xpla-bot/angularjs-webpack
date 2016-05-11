@@ -3,6 +3,7 @@ const config = {
 	output: {
 		filename: 'bundle.js',
 	},
+	//5/ Dodawanie loaderów w webpacku
 	module: {
 		loaders: [
 			{ test: /\.styl$/, loaders: ['style', 'css', 'stylus'] },

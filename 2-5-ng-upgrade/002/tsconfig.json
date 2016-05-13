@@ -1,0 +1,16 @@
+{
+	"buildOnSave": false,
+	"compileOnSave": false,
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"sourceMap": true,
+		"noImplicitAny": true,
+    "experimentalDecorators": true
+	},
+	"exclude": [
+		"node_modules",
+		"typings/main.d.ts",
+		"typings/main"
+	]
+}

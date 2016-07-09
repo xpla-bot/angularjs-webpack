@@ -24,6 +24,8 @@ export const AppComponent: IComponentOptions = {
                     {{ product.name }} - {{ product.price | currency }}
                 </li>
             </ul>
+            
+            <order-form></order-form>
         </div>
     `
 };

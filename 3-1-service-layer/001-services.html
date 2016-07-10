@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Services</title>
+    <title>Service</title>
     <script src="http://xpla.org/static/js/slide_loader.3.0.0.js"></script>
 </head>
 <body class="xp-slide">
 <div class="xp-row with-comments">
     <div class="xp-column">
-        <xp-editor active="src/app/app.service.ts">
+        <xp-editor active="src/app/products.service.ts">
             <script id="console.sh" type="application/octetstream" src="001/console.sh"></script>
             <script id="package.json" type="application/octetstream" src="001/package.json"></script>
             <script id="src/app/products.service.ts" highlight="1-9" type="application/octetstream" src="001/src/app/products.service.ts"></script>
@@ -32,17 +32,16 @@
 <div class="xp-resize-row"></div>
 <div class="xp-row comments">
     <xp-annotations>
-        <header><h1>Service layer</h1></header>
+        <header><h1>Warstwa serwisów</h1></header>
         <details>
-            <p>We are going to have as much as possible of application logic in service layer. In AngularJS we have 4 options to define services:</p>
+            <p>Praktycznie cała logika aplikacji powinna znaleźć się w warstwie serwisów. Dlatego w AngularJS mamy aż 4 sposoby zdefiniowania nowych serwisów:</p>
             <ul>
                 <li>service</li>
                 <li>factory</li>
                 <li>provider</li>
                 <li>value/constant</li>
             </ul>
-
-            <p>Services are instantiated with usage of "new" keyword and created object is injected into other services.</p>
+            <p>Te utworzone za pomocą metody <code>.service</code> są powoływane do życia z wykorzystaniem słowa kluczowego <code>new</code> i w ten sposób otrzymany obiekt jest wstrzykiwany do innych serwisów</p>
         </details>
     </xp-annotations>
 </div>

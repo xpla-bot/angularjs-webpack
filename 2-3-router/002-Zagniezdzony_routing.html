@@ -1,56 +1,66 @@
+<!DOCTYPE html>
+<html xp-run-server-url="http://xpla.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Zagnieżdżony routing</title>
+    <script src="http://xpla.org/static/js/slide_loader.3.0.0.js"></script>
+</head>
+<body class="xp-slide">
+<div class="xp-row with-comments">
 
-    <!DOCTYPE html>
-    <html xp-run-server-url="http://xpla.org">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Zagniezdzony routing</title>
-        <script src="http://xpla.org/static/js/slide_loader.3.0.0.js"></script>
-      </head>
-      <body class="xp-slide">
-        <div class="xp-row with-comments">
-          
-    
+
     <div class="xp-column" style="width: 65%">
-      <xp-editor active="console.sh" tree>
-        	<script id="console.sh" highlight="10-13" type="application/octetstream" src="002/console.sh"></script>
-	<script id="src/app/app.component.ts" highlight="1-13" type="application/octetstream" src="002/src/app/app.component.ts"></script>
-	<script id="src/app/app.ts" highlight="2-13" type="application/octetstream" src="002/src/app/app.ts"></script>
-	<script id="src/app/products/add/products-add.component.ts" highlight="2-31" type="application/octetstream" src="002/src/app/products/add/products-add.component.ts"></script>
-	<script id="src/app/products/main/products-main.component.ts" highlight="1-9" type="application/octetstream" src="002/src/app/products/main/products-main.component.ts"></script>
-	<script id="src/app/products/products.component.ts" highlight="1-19,22-27,31-38" type="application/octetstream" src="002/src/app/products/products.component.ts"></script>
-	<script id="src/app/products/products.ts" highlight="2-13" type="application/octetstream" src="002/src/app/products/products.ts"></script>
-	<script id="src/app/shared/interfaces/component-options-router.interface.ts" highlight="1-10" type="application/octetstream" src="002/src/app/shared/interfaces/component-options-router.interface.ts"></script>
-	<script id="tslint.json" highlight="58-64" type="application/octetstream" src="002/tslint.json"></script>
-	<script id="README.md" type="application/octetstream" src="001/README.md"></script>
-	<script id="package.json" type="application/octetstream" src="001/package.json"></script>
-	<script id="tsconfig.json" type="application/octetstream" src="001/tsconfig.json"></script>
-	<script id="typings.json" type="application/octetstream" src="001/typings.json"></script>
-	<script id="webpack.config.js" type="application/octetstream" src="001/webpack.config.js"></script>
-	<script id="src/index.html" type="application/octetstream" src="001/src/index.html"></script>
-	<script id="src/index.styl" type="application/octetstream" src="001/src/index.styl"></script>
-	<script id="src/index.ts" type="application/octetstream" src="001/src/index.ts"></script>
-	<script id="src/app/products/product.interface.ts" type="application/octetstream" src="001/src/app/products/product.interface.ts"></script>
-	<script id="src/app/products/products.service.ts" type="application/octetstream" src="001/src/app/products/products.service.ts"></script>
-	<script id="src/app/products/products.styl" type="application/octetstream" src="001/src/app/products/products.styl"></script>
-      </xp-editor>
+        <xp-editor active="src/app/app.ts" tree>
+            <script id="console.sh" highlight="10-13" type="application/octetstream" src="002/console.sh"></script>
+            <script id="src/app/app.component.ts" highlight="1-13" type="application/octetstream"
+                    src="002/src/app/app.component.ts"></script>
+            <script id="src/app/app.ts" highlight="2-13" type="application/octetstream"
+                    src="002/src/app/app.ts"></script>
+            <script id="src/app/products/add/products-add.component.ts" highlight="2-31" type="application/octetstream"
+                    src="002/src/app/products/add/products-add.component.ts"></script>
+            <script id="src/app/products/main/products-main.component.ts" highlight="1-9" type="application/octetstream"
+                    src="002/src/app/products/main/products-main.component.ts"></script>
+            <script id="src/app/products/products.component.ts" highlight="1-19,22-27,31-38"
+                    type="application/octetstream" src="002/src/app/products/products.component.ts"></script>
+            <script id="src/app/products/products.ts" highlight="2-13" type="application/octetstream"
+                    src="002/src/app/products/products.ts"></script>
+            <script id="src/app/shared/interfaces/component-options-router.interface.ts" highlight="1-10"
+                    type="application/octetstream"
+                    src="002/src/app/shared/interfaces/component-options-router.interface.ts"></script>
+            <script id="tslint.json" highlight="58-64" type="application/octetstream" src="002/tslint.json"></script>
+            <script id="README.md" type="application/octetstream" src="001/README.md"></script>
+            <script id="package.json" type="application/octetstream" src="001/package.json"></script>
+            <script id="tsconfig.json" type="application/octetstream" src="001/tsconfig.json"></script>
+            <script id="typings.json" type="application/octetstream" src="001/typings.json"></script>
+            <script id="webpack.config.js" type="application/octetstream" src="001/webpack.config.js"></script>
+            <script id="src/index.html" type="application/octetstream" src="001/src/index.html"></script>
+            <script id="src/index.styl" type="application/octetstream" src="001/src/index.styl"></script>
+            <script id="src/index.ts" type="application/octetstream" src="001/src/index.ts"></script>
+            <script id="src/app/products/product.interface.ts" type="application/octetstream"
+                    src="001/src/app/products/product.interface.ts"></script>
+            <script id="src/app/products/products.service.ts" type="application/octetstream"
+                    src="001/src/app/products/products.service.ts"></script>
+            <script id="src/app/products/products.styl" type="application/octetstream"
+                    src="001/src/app/products/products.styl"></script>
+        </xp-editor>
     </div>
-  
+
     <div class="xp-resize-column"></div>
-    
+
     <div class="xp-column" style="width: 35%">
-      <xp-preview runner="webpack"></xp-preview>
+        <xp-preview runner="webpack"></xp-preview>
     </div>
-  
-  
-        </div>
-        <div class="xp-resize-row"></div>
-        <div class="xp-row comments">
-          <xp-annotations>
-            <header><h1>Zagniezdzone sciezki routera</h1></header>
-            
-          </xp-annotations>
-        </div>
-      </body>
-    </html>
+
+
+</div>
+<div class="xp-resize-row"></div>
+<div class="xp-row comments">
+    <xp-annotations>
+        <header><h1>Zagnieżdżone ścieżki routera</h1></header>
+
+    </xp-annotations>
+</div>
+</body>
+</html>
   

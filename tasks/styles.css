@@ -3,4 +3,15 @@
     min-width: 400px;
     text-align: left;
     margin: 1rem auto;
+    line-height: 125%;
+}
+
+.xp-tasks .additional::before {
+    content: 'dodatkowe';
+    background-color: green;
+    color: white;
+    padding: 0.25em 0.5em;
+    font-size: 0.75em;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
 }

@@ -23,7 +23,7 @@ function productDirective () {
     }
 }
 
-angular.module('app', [])+
+angular.module('app', [])
     .component('appComponent', AppComponent)
     .service('productsService', ProductsService)
     .directive('myProduct', productDirective);

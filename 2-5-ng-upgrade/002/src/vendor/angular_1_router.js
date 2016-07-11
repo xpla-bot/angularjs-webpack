@@ -2133,7 +2133,7 @@
      * Token used to bind the component with the top-level {@link RouteConfig}s for the
      * application.
      *
-     * ### Example ([live demo](http://plnkr.co/edit/iRUP8B5OUbxCWQ3AcIDm))
+     * ### Example ([live demo](https://plnkr.co/edit/iRUP8B5OUbxCWQ3AcIDm))
      *
      * ```
      * import {Component} from 'angular2/core';
